@@ -18,7 +18,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="false"
         android:visibility="visible"
-        />
+        android:contentDescription="@string/body"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -124,7 +124,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nose"
+        android:text="@string/nose"
         android:id="@+id/nose"
         android:layout_alignBottom="@+id/imageView"
         android:layout_alignParentLeft="true"
@@ -136,7 +136,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ears"
+        android:text="@string/ears"
         android:id="@+id/ears"
         android:layout_below="@+id/imageView"
         android:layout_alignLeft="@+id/nose"
@@ -146,7 +146,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Shoes"
+        android:text="@string/shoes"
         android:id="@+id/shoes"
         android:layout_below="@+id/ears"
         android:layout_alignLeft="@+id/ears"
@@ -156,7 +156,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Moustache"
+        android:text="@string/stache"
         android:id="@+id/moustache"
         android:layout_alignBaseline="@+id/shoes"
         android:layout_alignBottom="@+id/shoes"
@@ -167,7 +167,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eyes"
+        android:text="@string/eyes"
         android:id="@+id/eyes"
         android:layout_above="@+id/moustache"
         android:layout_alignLeft="@+id/moustache"
@@ -177,7 +177,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glasses?"
+        android:text="@string/glass"
         android:id="@+id/glass"
         android:layout_above="@+id/eyes"
         android:layout_toRightOf="@+id/shoes"
@@ -198,7 +198,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Shiny"
+        android:text="New Checkbox"
         android:id="@+id/checkBox8"
         android:layout_alignTop="@+id/moustache"
         android:layout_alignLeft="@+id/checkBox7"
@@ -207,7 +207,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hat"
+        android:text="@string/hat"
         android:id="@+id/hat"
         android:layout_below="@+id/checkBox8"
         android:layout_alignLeft="@+id/checkBox8"
@@ -217,7 +217,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mouth"
+        android:text="@string/mouth"
         android:id="@+id/mouth"
         android:layout_below="@+id/shoes"
         android:layout_alignLeft="@+id/shoes"
@@ -227,7 +227,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eyebrows"
+        android:text="@string/brows"
         android:id="@+id/brows"
         android:layout_alignBaseline="@+id/mouth"
         android:layout_alignBottom="@+id/mouth"
@@ -238,7 +238,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Arms"
+        android:text="@string/arms"
         android:id="@+id/arms"
         android:layout_alignBaseline="@+id/eyes"
         android:layout_alignBottom="@+id/eyes"
