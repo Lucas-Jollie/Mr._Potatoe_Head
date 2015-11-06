@@ -136,12 +136,12 @@
         android:layout_height="wrap_content"
         android:text="@string/nose"
         android:id="@+id/nose"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginStart="0dp"
-        android:onClick="addNose"/>
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:onClick="addNose"
+        android:layout_alignTop="@+id/glass"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -194,35 +194,17 @@
         android:layout_toEndOf="@+id/shoes"
         android:onClick="addGlasses"/>
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox7"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_toRightOf="@+id/moustache"
-        android:layout_toEndOf="@+id/moustache"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp" />
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Checkbox"
-        android:id="@+id/checkBox8"
-        android:layout_alignTop="@+id/moustache"
-        android:layout_alignLeft="@+id/checkBox7"
-        android:layout_alignStart="@+id/checkBox7" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hat"
         android:id="@+id/hat"
-        android:layout_below="@+id/checkBox8"
-        android:layout_alignLeft="@+id/checkBox8"
-        android:layout_alignStart="@+id/checkBox8"
-        android:onClick="addHat"/>
+        android:onClick="addHat"
+        android:layout_below="@+id/imageView"
+        android:layout_toRightOf="@+id/moustache"
+        android:layout_toEndOf="@+id/moustache" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -250,10 +232,9 @@
         android:layout_height="wrap_content"
         android:text="@string/arms"
         android:id="@+id/arms"
-        android:layout_alignBaseline="@+id/eyes"
-        android:layout_alignBottom="@+id/eyes"
-        android:layout_alignLeft="@+id/checkBox8"
-        android:layout_alignStart="@+id/checkBox8"
-        android:onClick="addArms"/>
+        android:onClick="addArms"
+        android:layout_above="@+id/brows"
+        android:layout_alignLeft="@+id/hat"
+        android:layout_alignStart="@+id/hat" />
 
    </RelativeLayout>
